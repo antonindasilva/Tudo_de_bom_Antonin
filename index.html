@@ -26,7 +26,7 @@
     <!-- Header -->
 
     <header class="flex space-around bg-vert align-center">
-        <a class="pr-32" href=""><img class="w-30" src="asset/logo-bresilien-1.png" alt=""></a>
+        <a class="w-6" href=""><img class="w-100" src="asset/logo-bresilien-1.png" alt=""></a>
 
         <div class="flex gap-32 font-comfortaa">
             <a href="">Nos plats</a>
@@ -46,7 +46,7 @@
 
         <div class="bg-jaune w-30 container-1200 w-30">
 
-            <h1 class="mb-16 font-bungee">- TUDO DE BOM -<br> Restaurant Brésilien à Marseille</h1>
+            <h1 class="mb-16 font-bungee text-shadow">- TUDO DE BOM -<br> Restaurant Brésilien à Marseille</h1>
 
             <p class="mb-32 font-comfortaa">Voyagez au cœur de la gastronomie brésilienne avec Tudo de Bom, <br> votre
                 restaurant à
@@ -60,16 +60,15 @@
 
     <!-- SECTION PLAT/MENU -->
 
-    <section class="mt-64 container-1200 flex gap-64">
+    <section class="mt-64 container-1200 mt-128 ">
 
-        <div class="">
-            <h2 class="font-bungee mb-16">Nos plats</h2>
-            <p class="font-comfortaa">Une cuisine brésilienne authentique et savoureuse,
-                Ambiance chaleureuse pour une expérience culinaire conviviale,
-                Ingrédients de qualité pour des plats exquis</p>
-        </div>
 
-        <div class="card flex gap-32 align-center">
+        <h2 class="font-bungee mb-64 text-shadow-jaune">Nos plats</h2>
+
+
+        <div id="card-container" class="flex gap-32 align-center">
+            
+                <!--
             <img class="w-30 radius" src="asset/hero.jpg" alt="">
 
             <div class="w-50">
@@ -78,8 +77,8 @@
                 <p class="font-comfortaa">Découvrez notre feijoada, un plat emblématique du Brésil. Un mélange délicieux
                     de haricots noirs, de
                     viande de porc et de saucisses, accompagné de riz et de légumes.</p>
-            </div>
-
+            </div>-->
+            
         </div>
 
     </section>
@@ -87,19 +86,20 @@
 
     <!-- SECTION SERVICES -->
 
-    <section class="bg-card-hero mt-64">
+    <section class="bg-card-hero mt-128">
 
-        <h2 class="mb-32 font-bungee pt-32 container-1200">Nos services</h2>
+        <h2 class="mb-32 font-bungee pt-32 container-1200 text-shadow-green">Nos services</h2>
 
         <div class="flex space-between container-1200">
 
             <div class="card-service flex column align-center ">
-                <img class="w-30 radius-rond" src="asset/evenement_culturelle.jpg" alt="">
+                <img class="w-30 radius" src="asset/evenement_culturelle.jpg" alt="">
 
                 <div class="w-40 text-center">
                     <h3 class="mt-16 font-bungee">Evenements culturelle</h3>
 
-                    <p class="mt-16 font-comfortaa">Participez à nos événements culturels pour vivre l'ambiance du Brésil. Musique live, danse, et
+                    <p class="mt-16 font-comfortaa">Participez à nos événements culturels pour vivre l'ambiance du
+                        Brésil. Musique live, danse, et
                         dégustation de plats authentiques pour une expérience immersive.</p>
                 </div>
             </div>
@@ -110,55 +110,60 @@
 
     <!-- SECTION AVIS -->
 
-    <section>
+    <section class="container-1200 mt-128">
 
-        <h2>Témoignages</h2>
+        <h2 class="mt-64 font-bungee text-shadow-jaune">Témoignages</h2>
 
-        <div>
-             <div class="w-100 overflow container-1200">
+        <div class="mt-64 w-100 overflow">
 
-                
-                <div class="flex-nowrap w-max gap-32 bg-beige pb-64"">
+            <div class="flex-nowwrap w-max gap-32">
+                <div class="flex column card-avis font-comfortaa">
+                    <p class="mb-16">"La moqueca de peixe chez Tudo de Bom est un véritable délice. Les saveurs sont
+                        authentiques, et le poisson est toujours frais. Une expérience culinaire à ne pas manquer !"</p>
 
-                    <!--DIV AMELIE-->
-                    <div class="flex column card-avis pl-card-beige">
-                        <p class="mb-16 lato ">Les photos de notre mariage sont magnifiques ! Clara a su saisir les
-                            émotions
-                            avec beaucoup de
-                            sensibilité. Chaque image raconte une histoire.</p>
+                    <p class="mb-16">Type d'éxperience: </p>
 
-                        <p class="mb-16 montserrat">Type Prestation: Mariage</p>
+                    <p class="mb-16">note</p>
 
 
-                        <div class="flex align-center gap-8">
-                            <p <i class="ph ph-user-square font-size-20"></i></p>
-                            <p class="montserrat bold-600">Amélie</p>
-                        </div>
-
+                    <div class="flex align-center gap-8">
+                        <p <i class="ph ph-user-square font-size-20"></i></p>
+                        <p class="">Sophie</p>
                     </div>
 
-                    
                 </div>
+
+
+
 
             </div>
 
+        </div>
+
+    </section>
 
 
+    <!-- SECTION PROMESSE CLIENT -->
 
+    <section class="bg-promesse mt-128">
 
+        <div class="flex container-1200 space-between padding-80">
+
+            <div class="font-comfortaa w-30 flex justify-center">
+                <p class="font-size-40"><i class="ph-fill ph-chef-hat"></i></p>
+                <p>Une cuisine brésilienne authentique et savoureuse</p>
+
+            </div>
 
         </div>
 
-
-
-
-
-
-
-
-
-
     </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-vert-foot flex justify-center mt-128">
+        <a class="w-12" href=""><img class="w-100" src="asset/logo-bresilien-1.png" alt=""></a>
+
+    </footer>
 
 </body>
 
