@@ -5,18 +5,27 @@
     box-sizing: border-box;
 }
 
+header{
+     background-color: transparent;
+    position: fixed;
+    color:#e2e8f0 ;
+    width: 100%;
+    transition: background-color 200ms linear;
+    
+}
+
 /*-----------
     TEXTE
 -------------*/
 
 
-.text-black{
-    color: #292F36;
+.text-bleu{
+    color: #0d427f;
     
 }
 
 .text-shadow{
-    text-shadow: 1px 1px #292F36; 
+    text-shadow: 1px 1px black; 
    
     
 }
@@ -35,6 +44,10 @@
     
 }
 
+
+.font-size-25{
+    font-size: 25px;
+}
 
 .font-size-40{
     font-size: 40px;
@@ -100,9 +113,10 @@ a{
 }
 
 .btn1:hover{
-    background-color: #F1C40F;
+    background-color: rgb(3, 34, 134);
     transform: scale(1.1);
     box-shadow:0px 5px 15px #3E2C23;
+    color: #F1C40F;
 
 }
 
@@ -364,7 +378,7 @@ a{
     padding: 30px;
     width: 600px;
     border-radius: 12px;
-    box-shadow: 8px 8px #292F36;
+    box-shadow: 8px 8px rgb(3, 34, 134);
 }
 
 .card{
@@ -372,7 +386,7 @@ a{
     background-color: #2ecc71;
     border-radius: 20px;
     padding: 12px;
-    box-shadow: 8px 8px black;
+    box-shadow: 8px 8px rgb(3, 34, 134);
 }
 
 .bg-card-hero{
@@ -395,7 +409,7 @@ a{
     width: 30%;
     border-radius: 40px;
     padding: 12px;
-    box-shadow: 8px 8px black;
+    box-shadow: 8px 8px rgb(3, 34, 134);
 }
 
 .bg-black{
@@ -407,7 +421,7 @@ a{
     max-width: 400px;
     border-radius: 20px;
     padding: 12px;
-    box-shadow: 8px 8px black;
+    box-shadow: 8px 8px rgb(3, 34, 134);
     margin-bottom: 64px;
 }
 

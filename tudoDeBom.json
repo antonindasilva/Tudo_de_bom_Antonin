@@ -3,10 +3,23 @@
   "texteAccroche": "Voyagez au cœur de la gastronomie brésilienne avec Tudo de Bom, votre restaurant à Marseille",
   "texteBouton": "Dégustez nos saveurs uniques",
   "promessesClient": [
-    "Une cuisine brésilienne authentique et savoureuse",
-    "Ambiance chaleureuse pour une expérience culinaire conviviale",
-    "Ingrédients de qualité pour des plats exquis"
+
+    {
+    "phrase":"Une cuisine brésilienne authentique et savoureuse",
+    "icone": "<i class='ph-fill ph-chef-hat'></i>"
+    },
+    {
+    "phrase":"Ambiance chaleureuse pour une expérience culinaire conviviale",
+    "icone":"<i class='ph-fill ph-sun-horizon'></i>"
+    },
+    {
+    "phrase":"Ingrédients de qualité pour des plats exquis",
+    "icone":"<i class='ph-fill ph-bowl-steam'></i>"
+    }
+  
   ],
+  
+
   "plats": [
     {
       "nom": "Feijoada",
@@ -37,15 +50,18 @@
   "services": [
     {
       "nom": "Événements Culturels",
-      "desc": "Participez à nos événements culturels pour vivre l'ambiance du Brésil. Musique live, danse, et dégustation de plats authentiques pour une expérience immersive."
+      "desc": "Participez à nos événements culturels pour vivre l'ambiance du Brésil. Musique live, danse, et dégustation de plats authentiques pour une expérience immersive.",
+      "image":"https://i.pinimg.com/736x/ec/fc/97/ecfc9774c09fdffdb33fcbef9bf2eb34.jpg"
     },
     {
       "nom": "Cours de Cuisine",
-      "desc": "Apprenez à cuisiner les plats brésiliens avec nos cours de cuisine. Nos chefs vous guideront à travers les techniques et les saveurs de la cuisine brésilienne."
+      "desc": "Apprenez à cuisiner les plats brésiliens avec nos cours de cuisine. Nos chefs vous guideront à travers les techniques et les saveurs de la cuisine brésilienne.",
+      "image":"https://i.pinimg.com/736x/5a/39/e1/5a39e1426d0690501a54b37524286d07.jpg"
     },
     {
       "nom": "Privatisation d'Espace",
-      "desc": "Privatisez un espace pour vos événements spéciaux. Anniversaires, réunions d'affaires ou célébrations, nous créons une atmosphère brésilienne pour rendre votre occasion mémorable."
+      "desc": "Privatisez un espace pour vos événements spéciaux. Anniversaires, réunions d'affaires ou célébrations, nous créons une atmosphère brésilienne pour rendre votre occasion mémorable.",
+      "image":"https://i.pinimg.com/1200x/57/e7/48/57e7486cb8b78b4e84e11929c787f30e.jpg"
     }
   ],
   "temoignages": [
