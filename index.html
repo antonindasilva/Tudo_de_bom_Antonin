@@ -16,6 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Comfortaa:wght@300..700&display=swap"
         rel="stylesheet">
 
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+          <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+
+          <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 
@@ -29,47 +35,48 @@
         <a class="w-6" href=""><img class="w-100" src="asset/logo-bresilien-1.png" alt=""></a>
 
         <div class="flex gap-32 font-comfortaa">
-            <a href="">Nos plats</a>
+            <a href="#plats">Nos plats</a>
 
-            <a href="">Nos services</a>
+            <a href="#service">Nos services</a>
         </div>
 
         <div class="flex gap-8">
-            <a href="" class="font-size-25"><i class="ph-fill ph-facebook-logo"></i></a>
+            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR"
+                class="font-size-25"><i class="ph-fill ph-facebook-logo"></i></a>
 
-            <a href="" class="font-size-25"><i class="ph-fill ph-instagram-logo"></i></a>
+            <a href="https://www.instagram.com/" class="font-size-25"><i class="ph-fill ph-instagram-logo"></i></a>
         </div>
     </header>
 
     <!-- SECTION HERO -->
     <section class="bg-hero flex align-center" id="heroContainer">
 
-        <!--  
-        <div class="bg-jaune w-30 container-1200 w-30">
 
-            <h1 class="mb-16 font-bungee text-shadow">- TUDO DE BOM -<br> Restaurant Brésilien à Marseille</h1>
+         <div class="bg-jaune w-30 container-1200 w-30" data-aos="fade-up"
+     data-aos-duration="1000" >
+           
+            <h1 class="mb-16 font-bungee text-shadow" id="h1Container"></h1>
 
-            <p class="mb-32 font-comfortaa">Voyagez au cœur de la gastronomie brésilienne avec Tudo de Bom, votre
-                restaurant à
-                Marseille</p>
-
-            <a class="btn1 font-comfortaa" href="">Dégustez nos saveurs uniques</a>
-
+            <p class="mb-32 font-comfortaa" id="pContainer"></p>
+ 
+            <button class="btn1" id="btnContainer"></button>  
         </div>
-        -->
+
+
+
     </section>
 
     <!-- SECTION PLAT/MENU -->
 
-    <section class="mt-64 container-1200 mt-128 ">
+    <section class="mt-64 container-1200 mt-128 " id="plats">
 
 
         <h2 class="font-bungee mb-64 text-shadow-jaune">Nos plats</h2>
 
 
-        <div id="card-container" class="flex gap-32 ">
-            
-                <!--
+        <div id="card-container" class="flex gap-64 ">
+
+            <!--
             <img class="w-30 radius" src="asset/hero.jpg" alt="">
 
             <div class="w-50">
@@ -79,7 +86,8 @@
                     de haricots noirs, de
                     viande de porc et de saucisses, accompagné de riz et de légumes.</p>
             </div>-->
-            
+
+
         </div>
 
     </section>
@@ -87,7 +95,7 @@
 
     <!-- SECTION SERVICES -->
 
-    <section class="bg-card-hero mt-128">
+    <section class="bg-card-hero mt-128" id="service">
 
         <h2 class="mb-32 font-bungee pt-32 container-1200 text-shadow-green">Nos services</h2>
 
@@ -116,27 +124,19 @@
 
         <h2 class="mt-64 font-bungee text-shadow-jaune">Témoignages</h2>
 
-        
-         
-            <div class="flex-nowwrap gap-32 mt-64" id="avisContainer">
-               <!--  <div class="flex column card-avis font-comfortaa">
-                    <p class="mb-16">"La moqueca de peixe chez Tudo de Bom est un véritable délice. Les saveurs sont
-                        authentiques, et le poisson est toujours frais. Une expérience culinaire à ne pas manquer !"</p>
-
-                    <p class="mb-16">Type d'éxperience: </p>
-
-                    <p class="mb-16">note</p>
 
 
-                    <div class="flex align-center gap-8">
-                        <p <i class="ph ph-user-square font-size-20"></i></p>
-                        <p class="">Sophie</p>
-                    </div>
+        <div class="flex-nowwrap gap-32 mt-64">
+           
+       
+        </div>
 
-                </div>-->
+        <div data-aos="fade-up"
+     data-aos-duration="1000"  class="swiper mySwiper pl-400">
+            <div class="swiper-wrapper" id="carContainer">
+
             </div>
-
-
+        </div>
     </section>
 
 
